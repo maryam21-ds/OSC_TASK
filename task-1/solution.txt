@@ -5,9 +5,9 @@ mkdir BAD
 cd BAD
 touch bad.txt
 cd ..
-mv one.txt /home/osc/task-1/Downloads
+mv one.txt /home/osc/Downloads
 cd Downloads
-cp one.txt /home/osc/task-1/Downloads
+cp one.txt /home/osc/Downloads
 mv one.txt copy.txt
 cd ..
 nano two.txt 
