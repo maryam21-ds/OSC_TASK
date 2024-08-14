@@ -1,0 +1,20 @@
+mkdir mariam
+mkdir Downloads
+cd mariam
+touch one.txt two.txt three.txt four.txt
+mkdir BAD 
+cd BAD
+touch bad.txt
+cd ..
+mv one.txt /home/osc/task-1/Downloads
+cd Downloads
+cp one.txt /home/osc/task-1/Downloads
+mv one.txt copy.txt
+cd ..
+nano two.txt 
+mariam
+nano three.txt
+1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
