@@ -1,5 +1,4 @@
 mkdir mariam
-mkdir Downloads
 cd mariam
 touch one.txt two.txt three.txt four.txt
 mkdir BAD 
