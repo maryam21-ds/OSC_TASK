@@ -1,0 +1,19 @@
+git config --global user.name"mariam"
+git config --global user.email"mariam2162005@gmail.com"
+cd OSC_TAS
+mkdir task-2
+cd task-2
+touch greeting.txt
+nano greeting.txt
+git add greeting.txt
+git commit -m "Added greeting"
+git commit -m "Added greeting"
+git branch intro
+git checkout intro
+echo "I love git ">>greeting.txt
+git add greeting.txt
+git commit -m "Added I love git "
+git checkout main
+git merge intro
+git tag v1
+git push origin main
