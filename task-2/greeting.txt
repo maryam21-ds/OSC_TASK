@@ -1,2 +1,2 @@
 hello world
-I love you git
+I love git
