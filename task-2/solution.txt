@@ -1,6 +1,6 @@
 git config --global user.name"mariam"
 git config --global user.email"mariam2162005@gmail.com"
-cd OSC_TAS
+cd OSC_TASK
 mkdir task-2
 cd task-2
 touch greeting.txt
