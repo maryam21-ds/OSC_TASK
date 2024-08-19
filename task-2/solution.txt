@@ -1,5 +1,6 @@
 git config --global user.name"mariam"
 git config --global user.email"mariam2162005@gmail.com"
+git clone https://github.com/maryam221-ds/OSC_TASK
 cd OSC_TASK
 mkdir task-2
 cd task-2
@@ -15,5 +16,6 @@ git add greeting.txt
 git commit -m "Added I love git "
 git checkout main
 git merge intro
-git tag v1
+git tag -a v1
 git push origin main
+git push origin v1
