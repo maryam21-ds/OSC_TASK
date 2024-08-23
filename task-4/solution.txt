@@ -1,0 +1,17 @@
+sudo useradd -m newuser
+sudo groupadd newgroup
+sudo usermod -a -G newgroup newuser
+groups newuser
+cd ~
+mkdir task_dir
+cd task_dir
+touch sample.txt
+chmod 640 sample.txt
+sudo chown newuser sample.txt
+sudo chgrp newgroup sample.txt
+sudo groupdel newgroup
+sudo userdel -r -f newuser
+sudo apt update
+sudo apt install loclat
+echo "I LOVE OSC" | loclat
+sudo apt remove loclat
